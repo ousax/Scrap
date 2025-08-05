@@ -1,4 +1,5 @@
 
+
 # YOU.COM Scraper
 
 A feature-rich command-line interface for scraping and interacting with you.com's search API. This tool provides an interactive chat experience with advanced features like command system, result formatting, export functionality, auto-completion, and customizable interface.
@@ -47,7 +48,7 @@ The script will automatically install required dependencies if they're not avail
 Run the script without any arguments to start interactive mode:
 
 ```bash
-python nice_youc0m.py.py
+python nice_youc0m.py
 ```
 
 ### Command Line Arguments
@@ -152,18 +153,6 @@ Visual feedback is provided during searches:
 Searching... ████████████████████████████████████████ 100%
 ```
 
-## File Structure
-
-```
-you-scraper/
-├── nice_youc0m.py.py       # Main script
-├── requirements.txt     # Python dependencies
-├── README.md           # This file
-└── .nice_youc0m.py/       # User configuration directory (created automatically)
-    ├── config.json     # User settings
-    └── history.json    # Conversation history
-```
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -186,5 +175,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [pdfkit](https://github.com/JazzCore/python-pdfkit) for PDF generation
 
 ## Disclaimer
-
+Only for educational Purposes
 This tool is not affiliated with or endorsed by you.com. Use responsibly and in accordance with you.com's terms of service.
