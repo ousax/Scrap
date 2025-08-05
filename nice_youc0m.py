@@ -1,4 +1,3 @@
-
 import json
 import requests
 import time
@@ -98,7 +97,7 @@ THEMES = {
     }
 }
 
-CONFIG_DIR = os.path.expanduser("~/.you_scraper")
+CONFIG_DIR = os.path.expanduser("~/.nice_youc0m")
 CONFIG_FILE = os.path.join(CONFIG_DIR, "config.json")
 HISTORY_FILE = os.path.join(CONFIG_DIR, "history.json")
 
